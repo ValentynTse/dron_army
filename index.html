@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Армія дронів</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="./img/header/Logo.svg" alt="logo"></a>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content">
+						<div class="main__body">
+							<h1 class="main__title">Армія Дронів</h1>
+							<a href="#" class="main__button button">Зробити внесок</a>
+						</div>
+						<div class="main__image">
+							<img src="./img/main-block/image.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__info info">
+				<div class="info__container">
+					<div class="info__top">
+						<h3 class="info__title">Мрієте, щоб ЗСУ стали ще сильніше, а палало аж до москви?</h3>
+						<p class="info__text">Кожен день наближає Україну до перемоги.</p>
+						<p class="info__text">Наскільки довгим буде цей шлях – залежить від нас.</p>
+						<p class="info__text">
+							Допоможіть зібрати кошти на дрони. Хлопці обіцяють – результат вам сподобається! Адже в кожного з
+							нас єдине бажання, щоб
+							зло на нашій землі було знищено. Ваш внесок важливий. Зробіть його просто зараз!</p>
+					</div>
+					<ul class="info__images">
+						<li class="info__image">
+							<img src="./img/info-block/02.jpg" alt="drone">
+						</li>
+						<li class="info__image">
+							<img src="./img/info-block/01.jpg" alt="drone">
+						</li>
+						<li class="info__image">
+							<img src="./img/info-block/03.jpg" alt="drone">
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="page__forms forms">
+				<div class="forms__container">
+					<h2 class="forms__title">Зробити благодійний внесок</h2>
+					<form action="#" class="forms__body body-forms">
+						<div class="body-forms__row">
+							<div class="body-forms__column column-fond">
+								<h4 class="column-fond__title">Оберіть фонд</h4>
+								<label for="fond" class="column-fond__label">
+									<input name="fond" type="radio" class="column-fond__name" value="SerhiiPritulaFond" checked>
+									<span>Фонд Сергія Притули</span>
+								</label>
+								<label for="fond" class="column-fond__label">
+									<input name="fond" type="radio" class="column-fond__name" value="ComeBackAlive">
+									<span>Повернись живим</span>
+								</label>
+								<label for="fond" class="column-fond__label">
+									<input name="fond" type="radio" class="column-fond__name" value="AccountNBU">
+									<span>Рахунок НБУ</span>
+								</label>
+							</div>
+							<div class="body-forms__column column-card">
+								<label class="column-card__label">
+									Номер картки*
+									<input name="cardNumber" type="text" class="column-card__number"
+										placeholder="xxxx xxxx xxxx xxxx" required>
+								</label>
+								<div class="column-card__body">
+									<label for="cardExpire" class="column-card__label">
+										Термін дії*
+										<input name="cardExpire" type="text" class="column-card__expire" placeholder="xx/xx"
+											required>
+									</label>
+									<label for="cardCVV" class="column-card__label">
+										CVV*
+										<input name="cardCVV" type="text" class="column-card__cvv" placeholder="xxx" required>
+									</label>
+								</div>
+							</div>
+							<div class="body-forms__column column-owner">
+								<label for="cardOwner">
+									Ім'я на картці*
+									<input type="text" name="cardOwner" class="column-owner__name" required placeholder="Enter Your Name">
+								</label>
+								<button type="submit" class="column-owner__button button">Підтвердити внесок</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<p class="footer__text">Створено як навчальний проєкт курсу "Знайомство з IT: тестдрайв професій" від
+					Prometheus.</p>
+				<p class="footer__text">Ваше ім'я</p>
+
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
